@@ -3,8 +3,8 @@
 """
 
 from fastapi import FastAPI
-from .endpoints.defaults import router as default_endpoints
+from .endpoints.defaults import router as documentation_endpoints
 
 
 server = FastAPI()
-server.include_router(default_endpoints)
+server.include_router(documentation_endpoints)

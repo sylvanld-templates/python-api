@@ -3,7 +3,7 @@
 """
 
 from fastapi import FastAPI
-from .endpoints.defaults import router as documentation_endpoints
+from .endpoints.documentation import router as documentation_endpoints
 
 
 server = FastAPI()
